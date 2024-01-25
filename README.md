@@ -1,4 +1,4 @@
-# Projekt
+# Project
 
 This is the project repository for the final project of the vocational training as an IT specialist for system integration by Jan Sulga, focusing on "Automated Setup of a Root Server Including Two Web Applications Using Ansible."
 
