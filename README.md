@@ -1,10 +1,10 @@
 # Projekt
 
-Dies ist das Projekt-Repository des Abschlussprojektes zur Ausbildung Fachinformatiker für Systemintegration von Jan Sulga zum Thema "Automatisierte Einrichtung eines Rootservers inklusive zweier Webapplikationen mittels Ansible".
+This is the project repository for the final project of the vocational training as an IT specialist for system integration by Jan Sulga, focusing on "Automated Setup of a Root Server Including Two Web Applications Using Ansible."
 
-Dieses Repository enthält einen Ansible Ordner mit den zugehörigen Ansible-Playbooks sowie, Projektordner der einzelnen Services.
+This repository includes an Ansible folder with the corresponding Ansible playbooks, as well as project folders for each of the individual services.
 
-## Reihenfolge Ausführung der Playbooks
+## Order of execution of the playbooks
 
 1. Rootserver
     1. Prepare
@@ -25,7 +25,7 @@ Dieses Repository enthält einen Ansible Ordner mit den zugehörigen Ansible-Pla
         ansible-playbook pb3_traefik.yml --ask-become-pass 
         ```
 
-2. Applikationen
+2. Applications
    1. Directus
 
         ```shell
