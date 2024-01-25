@@ -1,0 +1,9 @@
+http:
+  middlewares:
+    protected-ips:
+      ipWhiteList:
+        sourceRange:
+          # Headquarter Pop Rocket Labs
+          - "212.36.148.198/29"
+          # WireGuard VPN via IOTA, Pop Rocket Labs
+          - "85.235.64.122"

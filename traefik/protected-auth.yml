@@ -1,0 +1,9 @@
+http:
+  middlewares:
+    protected-auth:
+      basicAuth:
+        realm: "Restricted Access"
+        headerField: "X-WebAuth-User"
+        users:
+          # cspell: disable
+          - 'toor:$2y$05$t1nxckgT2WxuaAvvGpr0Ru6EBtWu9yL01K0/qEd4xDdk3yrkYbPdO'
